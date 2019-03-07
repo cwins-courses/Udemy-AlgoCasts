@@ -28,3 +28,13 @@ function steps(n) {
 }
 
 module.exports = steps;
+
+// function steps(n) {
+//     const hash = "#";
+//     const space = " ";
+//     for (let i = 1; i <= n; i++) {
+//       let result = "";
+//       result = hash.repeat(i) + space.repeat(n - i);
+//       console.log(result);
+//     }
+//   }
