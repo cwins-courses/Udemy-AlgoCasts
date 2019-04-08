@@ -11,6 +11,7 @@
 function chunk(array, size) {
   let outer = [];
   let index = 0;
+
   while (index < array.length) {
     outer.push(array.slice(index, index + size));
     index += size;
